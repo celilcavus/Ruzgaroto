@@ -1,0 +1,13 @@
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\01.RuzgarOto.Entity\bin\Release\net8.0\01.RuzgarOto.Entity.deps.json
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\01.RuzgarOto.Entity\bin\Release\net8.0\01.RuzgarOto.Entity.dll
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\01.RuzgarOto.Entity\bin\Release\net8.0\01.RuzgarOto.Entity.pdb
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\01.RuzgarOto.Entity\obj\Release\net8.0\01.RuzgarOto.Entity.csproj.AssemblyReference.cache
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\01.RuzgarOto.Entity\obj\Release\net8.0\01.RuzgarOto.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\01.RuzgarOto.Entity\obj\Release\net8.0\01.RuzgarOto.Entity.AssemblyInfoInputs.cache
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\01.RuzgarOto.Entity\obj\Release\net8.0\01.RuzgarOto.Entity.AssemblyInfo.cs
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\01.RuzgarOto.Entity\obj\Release\net8.0\01.RuzgarOto.Entity.csproj.CoreCompileInputs.cache
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\01.RuzgarOto.Entity\obj\Release\net8.0\01.RuzgarOto.Entity.sourcelink.json
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\01.RuzgarOto.Entity\obj\Release\net8.0\01.RuzgarOto.Entity.dll
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\01.RuzgarOto.Entity\obj\Release\net8.0\refint\01.RuzgarOto.Entity.dll
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\01.RuzgarOto.Entity\obj\Release\net8.0\01.RuzgarOto.Entity.pdb
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\01.RuzgarOto.Entity\obj\Release\net8.0\ref\01.RuzgarOto.Entity.dll

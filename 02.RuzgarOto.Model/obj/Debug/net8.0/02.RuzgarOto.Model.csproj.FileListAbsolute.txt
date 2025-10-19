@@ -32,3 +32,4 @@ C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\02.RuzgarOto.Model\obj\D
 C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\02.RuzgarOto.Model\obj\Debug\net8.0\02.RuzgarOto.Model.pdb
 C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\02.RuzgarOto.Model\obj\Debug\net8.0\02.RuzgarOto.Model.genruntimeconfig.cache
 C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\02.RuzgarOto.Model\obj\Debug\net8.0\ref\02.RuzgarOto.Model.dll
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\02.RuzgarOto.Model\obj\Debug\net8.0\02.RuzgarOto.Model.sourcelink.json

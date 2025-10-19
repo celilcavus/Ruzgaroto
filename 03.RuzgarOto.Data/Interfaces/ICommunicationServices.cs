@@ -12,3 +12,4 @@ namespace _03.RuzgarOto.Data.Interfaces
         Task<Communication> GetOrCreateCommunicationAsync();
     }
 }
+ 

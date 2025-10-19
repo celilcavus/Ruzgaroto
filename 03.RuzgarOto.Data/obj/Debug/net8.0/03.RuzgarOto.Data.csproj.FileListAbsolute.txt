@@ -36,3 +36,4 @@ C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\03.RuzgarOto.Data\obj\De
 C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\03.RuzgarOto.Data\obj\Debug\net8.0\refint\03.RuzgarOto.Data.dll
 C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\03.RuzgarOto.Data\obj\Debug\net8.0\03.RuzgarOto.Data.pdb
 C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\03.RuzgarOto.Data\obj\Debug\net8.0\ref\03.RuzgarOto.Data.dll
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\03.RuzgarOto.Data\obj\Debug\net8.0\03.RuzgarOto.Data.sourcelink.json

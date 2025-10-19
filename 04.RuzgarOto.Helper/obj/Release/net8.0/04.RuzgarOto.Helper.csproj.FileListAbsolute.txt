@@ -1,0 +1,13 @@
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\04.RuzgarOto.Helper\bin\Release\net8.0\04.RuzgarOto.Helper.deps.json
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\04.RuzgarOto.Helper\bin\Release\net8.0\04.RuzgarOto.Helper.dll
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\04.RuzgarOto.Helper\bin\Release\net8.0\04.RuzgarOto.Helper.pdb
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\04.RuzgarOto.Helper\obj\Release\net8.0\04.RuzgarOto.Helper.csproj.AssemblyReference.cache
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\04.RuzgarOto.Helper\obj\Release\net8.0\04.RuzgarOto.Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\04.RuzgarOto.Helper\obj\Release\net8.0\04.RuzgarOto.Helper.AssemblyInfoInputs.cache
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\04.RuzgarOto.Helper\obj\Release\net8.0\04.RuzgarOto.Helper.AssemblyInfo.cs
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\04.RuzgarOto.Helper\obj\Release\net8.0\04.RuzgarOto.Helper.csproj.CoreCompileInputs.cache
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\04.RuzgarOto.Helper\obj\Release\net8.0\04.RuzgarOto.Helper.sourcelink.json
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\04.RuzgarOto.Helper\obj\Release\net8.0\04.RuzgarOto.Helper.dll
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\04.RuzgarOto.Helper\obj\Release\net8.0\refint\04.RuzgarOto.Helper.dll
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\04.RuzgarOto.Helper\obj\Release\net8.0\04.RuzgarOto.Helper.pdb
+C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\04.RuzgarOto.Helper\obj\Release\net8.0\ref\04.RuzgarOto.Helper.dll
