@@ -1,0 +1,105 @@
+@model _01.RuzgarOto.Entity.SiteSettings
+
+@{
+    ViewData["Title"] = "Site Ayarları";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        Site Ayarları
+                    </h3>
+                </div>
+                <form asp-action="Index" method="post" enctype="multipart/form-data">
+                    <div class="card-body">
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                @TempData["SuccessMessage"]
+                                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                            </div>
+                        }
+                        
+                        @if (TempData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                @TempData["ErrorMessage"]
+                                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                            </div>
+                        }
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="SiteTitle" class="form-label">Site Başlığı</label>
+                                    <input asp-for="SiteTitle" class="form-control" placeholder="Site başlığını girin" />
+                                    <span asp-validation-for="SiteTitle" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="SiteDescription" class="form-label">Site Açıklaması</label>
+                                    <input asp-for="SiteDescription" class="form-control" placeholder="Site açıklamasını girin" />
+                                    <span asp-validation-for="SiteDescription" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="SiteKeywords" class="form-label">Site Anahtar Kelimeleri</label>
+                            <input asp-for="SiteKeywords" class="form-control" placeholder="Anahtar kelimeleri virgülle ayırın" />
+                            <span asp-validation-for="SiteKeywords" class="text-danger"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="LogoFile" class="form-label">Logo Dosyası</label>
+                                    <input asp-for="LogoFile" type="file" class="form-control" accept="image/*" />
+                                    <small class="form-text text-muted">Mevcut logo: @Model?.LogoName</small>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="FaviconFile" class="form-label">Favicon Dosyası</label>
+                                    <input asp-for="FaviconFile" type="file" class="form-control" accept="image/*" />
+                                    <small class="form-text text-muted">Mevcut favicon: @Model?.FaviconName</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="FooterText" class="form-label">Footer Metni</label>
+                            <input asp-for="FooterText" class="form-control" placeholder="Footer metnini girin" />
+                            <span asp-validation-for="FooterText" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="GoogleMapsEmbed" class="form-label">Google Maps Embed Kodu</label>
+                            <textarea asp-for="GoogleMapsEmbed" class="form-control" rows="3" placeholder="Google Maps embed kodunu girin"></textarea>
+                            <span asp-validation-for="GoogleMapsEmbed" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="GoogleAnalytics" class="form-label">Google Analytics Kodu</label>
+                            <textarea asp-for="GoogleAnalytics" class="form-control" rows="3" placeholder="Google Analytics kodunu girin"></textarea>
+                            <span asp-validation-for="GoogleAnalytics" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary">
+                            Kaydet
+                        </button>
+                        <a href="/Admin/Index" class="btn btn-secondary">
+                            Geri Dön
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

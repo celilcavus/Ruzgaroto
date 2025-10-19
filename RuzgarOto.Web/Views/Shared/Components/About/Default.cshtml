@@ -1,0 +1,100 @@
+﻿@model About
+<br />
+<br />
+<br />
+<br />
+		<!--about start -->
+<section id="about" class="about">
+	<div class="section-heading text-center">
+		<h2>Hakkımızda</h2>
+	</div>
+	<div class="container">
+		<div class="about-content">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="single-about-txt">
+						<h3>
+							@Model.Title
+						</h3>
+						<p>
+							@Model.Description
+						</p>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="single-about-add-info">
+									<h3>Telefon</h3>
+									@{
+										var communication = ViewBag.Communication as _01.RuzgarOto.Entity.Communication;
+									}
+									@if (communication != null)
+									{
+										<p>@communication.Phone2 / @communication.Phone</p>
+									}
+									else
+									{
+										<p>+90 501 150 50 60 / (212) 613 15 60</p>
+									}
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="single-about-add-info">
+									<h3>email</h3>
+									@if (communication != null)
+									{
+										<p>@communication.Email2</p>
+									}
+									else
+									{
+										<p>ozmeotomotiv@gmail.com</p>
+									}
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-offset-1 col-sm-5">
+					<div class="single-about-img">
+						<img src="~/About/@Model.ImageName" alt="profile_image">
+						<div class="about-list-icon">
+							<ul>
+								<li>
+									<a href="#">
+										<i class="fa fa-facebook" aria-hidden="true"></i>
+									</a>
+								</li><!-- / li -->
+								<li>
+									<a href="#">
+										<i class="fa fa-dribbble" aria-hidden="true"></i>
+									</a>
+
+								</li><!-- / li -->
+								<li>
+									<a href="#">
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									</a>
+
+								</li><!-- / li -->
+								<li>
+									<a href="#">
+										<i class="fa fa-linkedin" aria-hidden="true"></i>
+									</a>
+								</li><!-- / li -->
+								<li>
+									<a href="#">
+										<i class="fa fa-instagram" aria-hidden="true"></i>
+									</a>
+								</li><!-- / li -->
+
+
+							</ul><!-- / ul -->
+						</div><!-- /.about-list-icon -->
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section><!--/.about-->
+<!--about end -->

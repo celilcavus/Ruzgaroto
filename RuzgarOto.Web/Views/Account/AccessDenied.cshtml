@@ -1,0 +1,18 @@
+@{
+    ViewData["Title"] = "Erişim Reddedildi";
+    Layout = "_LoginLayout";
+}
+
+<div class="text-center">
+    <div class="text-danger mb-4">
+        <i class="fa fa-exclamation-triangle" style="font-size: 60px;"></i>
+    </div>
+    <h4 class="fw-bold text-danger mb-3">Erişim Reddedildi</h4>
+    <p class="text-muted mb-4">
+        Bu sayfaya erişim yetkiniz bulunmamaktadır.
+    </p>
+    <div class="d-grid gap-2">
+        <a asp-action="Index" asp-controller="Home" class="btn btn-outline-primary">Ana Sayfaya Dön</a>
+        <a asp-action="Login" asp-controller="Account" class="btn btn-primary">Giriş Yap</a>
+    </div>
+</div>

@@ -1,0 +1,131 @@
+@model _01.RuzgarOto.Entity.MenuSettings
+
+@{
+    ViewData["Title"] = "Menü Düzenle";
+    Layout = "_LayoutAdmin";
+    var categories = ViewBag.Categories as IEnumerable<_01.RuzgarOto.Entity.ServiceCategory>;
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        Menü Düzenle: @Model.MenuName
+                    </h3>
+                </div>
+                <form asp-action="Update" method="post">
+                    <input type="hidden" asp-for="Id" />
+                    <div class="card-body">
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                @TempData["SuccessMessage"]
+                                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                            </div>
+                        }
+                        
+                        @if (TempData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                @TempData["ErrorMessage"]
+                                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                            </div>
+                        }
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="MenuName" class="form-label">Menü Adı *</label>
+                                    <input asp-for="MenuName" class="form-control" required />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="MenuUrl" class="form-label">Menü URL *</label>
+                                    <input asp-for="MenuUrl" class="form-control" required />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    <label asp-for="MenuIcon" class="form-label">Icon (Font Awesome)</label>
+                                    <input asp-for="MenuIcon" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    <label asp-for="DisplayOrder" class="form-label">Sıralama *</label>
+                                    <input asp-for="DisplayOrder" type="number" class="form-control" required />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    <label asp-for="Target" class="form-label">Hedef Pencere</label>
+                                    <select asp-for="Target" class="form-control">
+                                        <option value="_self">Aynı Sekme</option>
+                                        <option value="_blank">Yeni Sekme</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Durum</label>
+                                    <div class="form-check form-switch">
+                                        <input asp-for="IsActive" class="form-check-input" type="checkbox" />
+                                        <label asp-for="IsActive" class="form-check-label">Aktif</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Dropdown mu?</label>
+                                    <div class="form-check form-switch">
+                                        <input asp-for="IsDropdown" class="form-check-input" type="checkbox" />
+                                        <label asp-for="IsDropdown" class="form-check-label">Dropdown Menü</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="alert alert-warning">
+                            <i class="fas fa-lightbulb"></i> <strong>Hızlı Linkler:</strong>
+                            <ul class="mb-0 mt-2">
+                                <li>Ana Sayfa: <code>/</code></li>
+                                <li>Hakkımızda: <code>/About/About</code></li>
+                                <li>Galeri: <code>/PhotoGalery/PhotoGalery</code></li>
+                                <li>İletişim (scroll): <code>#contact</code></li>
+                                @if (categories != null && categories.Any())
+                                {
+                                    <li><strong>Kategoriler:</strong></li>
+                                    @foreach (var cat in categories)
+                                    {
+                                        <li class="ms-3">@cat.CategoryName: <code>/ServiceCategory/Services/@cat.Id</code></li>
+                                    }
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary">
+                            Güncelle
+                        </button>
+                        <a href="/MenuSettings/Index" class="btn btn-secondary">
+                            Geri Dön
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

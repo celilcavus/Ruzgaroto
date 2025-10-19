@@ -1,0 +1,122 @@
+@model IEnumerable<_01.RuzgarOto.Entity.ServiceCategory>
+
+@{
+    ViewData["Title"] = "Servis Kategorileri";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        Servis Kategorileri
+                    </h3>
+                    <div class="card-tools">
+                        <a href="/ServiceCategory/Create" class="btn btn-success">
+                            Yeni Kategori Ekle
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            @TempData["SuccessMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    }
+                    
+                    @if (TempData["ErrorMessage"] != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            @TempData["ErrorMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    }
+
+                    @if (Model != null && Model.Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Sıra</th>
+                                        <th>Resim</th>
+                                        <th>Kategori Adı</th>
+                                        <th>Icon</th>
+                                        <th>Kısa Açıklama</th>
+                                        <th>Durum</th>
+                                        <th>İşlemler</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td><span class="badge bg-secondary">#@item.DisplayOrder</span></td>
+                                            <td>
+                                                @if (!string.IsNullOrEmpty(item.ImageName))
+                                                {
+                                                    <img src="~/ServiceCategory/@item.ImageName" alt="@item.CategoryName" style="width: 60px; height: 60px; object-fit: cover; border-radius: 8px;">
+                                                }
+                                                else
+                                                {
+                                                    <div style="width: 60px; height: 60px; background: #e9ecef; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                                                        <i class="@item.IconClass fa-2x text-muted"></i>
+                                                    </div>
+                                                }
+                                            </td>
+                                            <td>
+                                                <strong>@item.CategoryName</strong>
+                                            </td>
+                                            <td>
+                                                <i class="@item.IconClass fa-2x text-@item.ColorClass"></i>
+                                            </td>
+                                            <td>
+                                                <small>@(item.ShortDescription.Length > 50 ? item.ShortDescription.Substring(0, 50) + "..." : item.ShortDescription)</small>
+                                            </td>
+                                            <td>
+                                                @if (item.IsActive)
+                                                {
+                                                    <span class="badge bg-success">Aktif</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge bg-danger">Pasif</span>
+                                                }
+                                            </td>
+                                            <td>
+                                                <div class="btn-group" role="group">
+                                                    <a href="/ServiceCategory/Update/@item.Id" class="btn btn-sm btn-primary" title="Düzenle">
+                                                        Düzenle
+                                                    </a>
+                                                    <a href="/ServiceCategory/Delete/@item.Id" class="btn btn-sm btn-danger" 
+                                                       onclick="return confirm('Bu kategoriyi silmek istediğinizden emin misiniz?')" title="Sil">
+                                                        Sil
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-info">
+                            Henüz kategori bulunmuyor. Hemen bir kategori ekleyin!
+                        </div>
+                    }
+                </div>
+                <div class="card-footer">
+                    <a href="/Admin/Index" class="btn btn-secondary">
+                            Geri Dön
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

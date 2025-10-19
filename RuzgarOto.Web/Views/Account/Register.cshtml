@@ -1,0 +1,54 @@
+@model RuzgarOto.Web.Models.RegisterViewModel
+@{
+    ViewData["Title"] = "Kayıt Ol";
+    Layout = "_LoginLayout";
+}
+
+<form asp-action="Register" asp-controller="Account" method="post">
+    <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+    <div class="mb-3">
+        <label asp-for="FullName" class="form-label">Ad Soyad</label>
+        <input asp-for="FullName" class="form-control" placeholder="Ad Soyad" />
+        <span asp-validation-for="FullName" class="text-danger small"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="UserName" class="form-label">Kullanıcı Adı</label>
+        <input asp-for="UserName" class="form-control" placeholder="kullaniciadi" />
+        <span asp-validation-for="UserName" class="text-danger small"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">Email</label>
+        <input asp-for="Email" class="form-control" placeholder="ornek@email.com" />
+        <span asp-validation-for="Email" class="text-danger small"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label">Şifre</label>
+        <input asp-for="Password" class="form-control" placeholder="••••••••" />
+        <span asp-validation-for="Password" class="text-danger small"></span>
+        <small class="text-muted">En az 6 karakter, büyük/küçük harf ve rakam içermelidir</small>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ConfirmPassword" class="form-label">Şifre Tekrar</label>
+        <input asp-for="ConfirmPassword" class="form-control" placeholder="••••••••" />
+        <span asp-validation-for="ConfirmPassword" class="text-danger small"></span>
+    </div>
+
+    <div class="d-grid gap-2">
+        <button type="submit" class="btn btn-primary btn-login">Kayıt Ol</button>
+    </div>
+</form>
+
+<hr class="my-4">
+
+<div class="text-center">
+    <p class="mb-0">Zaten hesabınız var mı? <a asp-action="Login" asp-controller="Account" class="fw-bold text-decoration-none">Giriş Yap</a></p>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

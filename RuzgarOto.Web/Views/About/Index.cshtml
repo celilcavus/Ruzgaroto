@@ -1,0 +1,23 @@
+﻿@model About
+
+<form method="post" asp-action="Index" asp-controller="About" enctype="multipart/form-data">
+    <label asp-for="Image">Resim</label>
+    <input asp-for="Image" class="form-control" />
+    <br />
+    <label asp-for="BaseTitle">Ana Başlık</label>
+    <input asp-for="BaseTitle" class="form-control" />
+    <br />
+    <label asp-for="Title">Başlık</label>
+    <input asp-for="Title" class="form-control" />
+    <br />
+    <label asp-for="Description">Açıklama</label>
+    <textarea asp-for="Description" class="form-control w-100" style="height:200px;"></textarea>
+    <br />
+    <label asp-for="IsActive">Aktif Olsun mu?</label>
+    <input asp-for="IsActive" class="form-check" />
+    <br />
+    <button class="btn btn-dark">Kaydet</button>
+</form>
+<br />
+<br />
+@await Component.InvokeAsync("AboutList")

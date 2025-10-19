@@ -1,0 +1,318 @@
+﻿
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <!-- meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!--font-family-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
+
+    <!-- title of site -->
+    <title>TİA TOPKAPİ</title>
+    <link href="~/slider.css" rel="stylesheet" />
+    <!-- For favicon png -->
+    <link rel="shortcut icon" type="image/icon" href="~/assets/logo/logo.png" />
+    <link href="~/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="~/assets/css/font-awesome.min.css">
+  
+    <!--flat icon css-->
+    <link rel="stylesheet" href="~/assets/css/flaticon.css">
+    <link href="~/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!--animate.css-->
+    <link rel="stylesheet" href="~/assets/css/animate.css">
+
+    <!--owl.carousel.css-->
+    <link rel="stylesheet" href="~/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/assets/css/owl.theme.default.min.css">
+
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="~/assets/css/bootsnav.css">
+
+    <!--style.css-->
+    <link rel="stylesheet" href="~/assets/css/style.css">
+
+    <!--responsive.css-->
+    <link rel="stylesheet" href="~/assets/css/responsive.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        footer {
+            background-color: black;
+            color: #fff;
+            padding: 40px 0;
+        }
+
+        .footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .footer-section {
+            flex: 1;
+            min-width: 200px;
+            margin: 20px 0;
+            color: #fff;
+        }
+
+            .footer-section h3 {
+                margin-bottom: 15px;
+                font-size: 18px;
+                padding-bottom: 5px;
+            }
+
+            .footer-section p, .footer-section ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+
+                .footer-section ul li {
+                    margin: 10px 0;
+                }
+
+                    .footer-section ul li a {
+                        color: #fff;
+                        text-decoration: none;
+                        transition: color 0.3s;
+                    }
+
+                        .footer-section ul li a:hover {
+                            color: #fff
+                        }
+
+        .footer-bottom {
+            text-align: center;
+            padding: 20px;
+            background-color: black;
+        }
+
+            .footer-bottom p {
+                margin: 0;
+            }
+
+        .social-media {
+            display: flex;
+            gap: 10px;
+        }
+
+            .social-media li {
+                display: inline;
+            }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="~/assets/logo/whatsapp image 2024-05-26 at 18.54.37-photoroom.png-photoroom.png" width="75" height="75" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                @{
+                    var navbarMenus = await MenuSettingsServices.GetMainMenusAsync();
+                    var navbarCategories = await ServiceCategoryServices.GetOrderedCategoriesAsync();
+                }
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    @if (navbarMenus != null && navbarMenus.Any())
+                    {
+                        @foreach (var menu in navbarMenus)
+                        {
+                            @if (menu.IsDropdown)
+                            {
+                                <!-- Hizmetler Dropdown - Kategoriler ile -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        @menu.MenuName
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        @if (navbarCategories != null && navbarCategories.Any())
+                                        {
+                                            @foreach (var category in navbarCategories)
+                                            {
+                                                <li>
+                                                    <a class="dropdown-item" href="/ServiceCategory/Services/@category.Id">
+                                                        @category.CategoryName
+                                                    </a>
+                                                </li>
+                                            }
+                                        }
+                                    </ul>
+                                </li>
+                            }
+                            else
+                            {
+                                <!-- Normal Menü -->
+                                <li class="nav-item">
+                                    <a class="nav-link @(menu.DisplayOrder == 1 ? "active" : "")" 
+                                       href="@menu.MenuUrl" 
+                                       target="@menu.Target">
+                                        @menu.MenuName
+                                    </a>
+                                </li>
+                            }
+                        }
+                    }
+                    else
+                    {
+                        <!-- Default Menüler (Eğer hiç menü yoksa) -->
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/About/About">Kurumsal</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Hizmetler
+                            </a>
+                            <ul class="dropdown-menu">
+                                @if (navbarCategories != null && navbarCategories.Any())
+                                {
+                                    @foreach (var category in navbarCategories)
+                                    {
+                                        <li>
+                                            <a class="dropdown-item" href="/ServiceCategory/Services/@category.Id">
+                                                @category.CategoryName
+                                            </a>
+                                        </li>
+                                    }
+                                }
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/PhotoGalery/PhotoGalery">Galeri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">İletişim</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    @RenderBody()
+    
+
+    <!-- Diğer içerikler -->
+
+    @inject _03.RuzgarOto.Data.Interfaces.ICommunicationServices CommunicationServices
+    @inject _03.RuzgarOto.Data.Interfaces.IServicesServices ServicesServices
+    @inject _03.RuzgarOto.Data.Interfaces.IMenuSettingsServices MenuSettingsServices
+    @inject _03.RuzgarOto.Data.Interfaces.IServiceCategoryServices ServiceCategoryServices
+    
+    @{
+        var footerCommunication = CommunicationServices.GetAll().FirstOrDefault();
+        var footerServices = ServicesServices.GetAll().Take(6).ToList();
+    }
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3 style="color:#fff">Hakkımızda</h3>
+                <p style="color:#fff">@(footerCommunication?.FooterAbout ?? "Şirketimiz hakkında detaylı bilgi burada yer alabilir. Misyonumuz, vizyonumuz ve değerlerimizden bahsedebiliriz.")</p>
+            </div>
+            <div class="footer-section">
+                <h3 style="color:#fff">Hizmetlerimiz</h3>
+                <ul>
+                    @if (footerServices != null && footerServices.Any())
+                    {
+                        @foreach (var service in footerServices)
+                        {
+                            <li><a asp-action="Get" asp-controller="Services" asp-route-Id="@service.Id">@service.Title</a></li>
+                        }
+                    }
+                    else
+                    {
+                        <li><a href="#">Hizmetler yükleniyor...</a></li>
+                    }
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 style="color:#fff">İletişim</h3>
+                <ul>
+                    @if (footerCommunication != null)
+                    {
+                        <li>Adres: @footerCommunication.Adress</li>
+                        <li>Telefon: @footerCommunication.Phone</li>
+                        <li>Telefon: @footerCommunication.Phone2</li>
+                        <li>Email: @footerCommunication.Email</li>
+                        <li>Email: @footerCommunication.Email2</li>
+                    }
+                    else
+                    {
+                        <li>Adres: İstanbul, Türkiye</li>
+                        <li>Telefon: (212) 613 15 60</li>
+                        <li>Telefon: +90 501 150 50 60</li>
+                        <li>Email: topkapi@tiaotomotiv.com.tr</li>
+                        <li>Email: ozmeotomotiv@gmail.com</li>
+                    }
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 style="color:#fff">Sosyal Medya</h3>
+                <ul class="social-media">
+                    @if (footerCommunication != null)
+                    {
+                        @if (!string.IsNullOrEmpty(footerCommunication.FacebookUrl) && footerCommunication.FacebookUrl != "#")
+                        {
+                            <li><a href="@footerCommunication.FacebookUrl" target="_blank">Facebook</a></li>
+                        }
+                        @if (!string.IsNullOrEmpty(footerCommunication.TwitterUrl) && footerCommunication.TwitterUrl != "#")
+                        {
+                            <li><a href="@footerCommunication.TwitterUrl" target="_blank">Twitter</a></li>
+                        }
+                        @if (!string.IsNullOrEmpty(footerCommunication.InstagramUrl) && footerCommunication.InstagramUrl != "#")
+                        {
+                            <li><a href="@footerCommunication.InstagramUrl" target="_blank">Instagram</a></li>
+                        }
+                        @if (!string.IsNullOrEmpty(footerCommunication.LinkedinUrl) && footerCommunication.LinkedinUrl != "#")
+                        {
+                            <li><a href="@footerCommunication.LinkedinUrl" target="_blank">LinkedIn</a></li>
+                        }
+                    }
+                    else
+                    {
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p style="color:#fff">@(footerCommunication?.CopyrightText ?? "© 2024 Tüm Hakları Saklıdır | ÖZME OTOMOTİV")</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="~/navbarscript.js"></script>
+
+
+</body>
+
+</html>

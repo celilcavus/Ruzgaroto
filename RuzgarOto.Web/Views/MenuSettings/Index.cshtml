@@ -1,0 +1,137 @@
+@model IEnumerable<_01.RuzgarOto.Entity.MenuSettings>
+
+@{
+    ViewData["Title"] = "Menü Ayarları";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        Navbar Menü Ayarları
+                    </h3>
+                    <div class="card-tools">
+                        <a href="/MenuSettings/Create" class="btn btn-success btn-sm me-2">
+                            Yeni Menü Ekle
+                        </a>
+                        @if (!Model.Any())
+                        {
+                            <a href="/MenuSettings/CreateDefaultMenus" class="btn btn-info btn-sm">
+                                Default Menüleri Oluştur
+                            </a>
+                        }
+                    </div>
+                </div>
+                <div class="card-body">
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            @TempData["SuccessMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    }
+                    
+                    @if (TempData["ErrorMessage"] != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            @TempData["ErrorMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    }
+
+                    @if (Model != null && Model.Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Sıra</th>
+                                        <th>Icon</th>
+                                        <th>Menü Adı</th>
+                                        <th>URL</th>
+                                        <th>Hedef</th>
+                                        <th>Durum</th>
+                                        <th>İşlemler</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td><span class="badge bg-secondary">#@item.DisplayOrder</span></td>
+                                            <td>
+                                                @if (!string.IsNullOrEmpty(item.MenuIcon))
+                                                {
+                                                    <i class="@item.MenuIcon fa-lg"></i>
+                                                }
+                                            </td>
+                                            <td>
+                                                <strong>@item.MenuName</strong>
+                                                @if (item.IsDropdown)
+                                                {
+                                                    <span class="badge bg-info ms-2">Dropdown</span>
+                                                }
+                                            </td>
+                                            <td>
+                                                <code>@item.MenuUrl</code>
+                                            </td>
+                                            <td>
+                                                @if (item.Target == "_blank")
+                                                {
+                                                    <span class="badge bg-warning">Yeni Sekme</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge bg-secondary">Aynı Sekme</span>
+                                                }
+                                            </td>
+                                            <td>
+                                                @if (item.IsActive)
+                                                {
+                                                    <span class="badge bg-success">Aktif</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge bg-danger">Pasif</span>
+                                                }
+                                            </td>
+                                            <td>
+                                                <div class="btn-group" role="group">
+                                                    <a href="/MenuSettings/Update/@item.Id" class="btn btn-sm btn-primary" title="Düzenle">
+                                                        Düzenle
+                                                    </a>
+                                                    <a href="/MenuSettings/Delete/@item.Id" class="btn btn-sm btn-danger" 
+                                                       onclick="return confirm('Bu menüyü silmek istediğinizden emin misiniz?')" title="Sil">
+                                                        Sil
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-info text-center">
+                            <h4>Henüz menü bulunmuyor</h4>
+                            <p>Hızlıca başlamak için "Default Menüleri Oluştur" butonuna tıklayabilirsiniz.</p>
+                            <a href="/MenuSettings/CreateDefaultMenus" class="btn btn-info mt-3">
+                                Default Menüleri Oluştur
+                            </a>
+                        </div>
+                    }
+                </div>
+                <div class="card-footer">
+                    <a href="/Admin/Index" class="btn btn-secondary">
+                        Geri Dön
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,91 @@
+﻿@model Services
+
+@{
+    ViewData["Title"] = "Servis Düzenle";
+    Layout = "_LayoutAdmin";
+    var categories = ViewBag.Categories as IEnumerable<_01.RuzgarOto.Entity.ServiceCategory>;
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        Servis Düzenle: @Model.Title
+                    </h3>
+                </div>
+                <form method="post" enctype="multipart/form-data" asp-action="Update" asp-controller="Services">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="Title" class="form-label">Servis Başlığı *</label>
+                                    <input asp-for="Title" class="form-control" required />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="ServiceCategoryId" class="form-label">Kategori</label>
+                                    <select asp-for="ServiceCategoryId" class="form-control">
+                                        <option value="">-- Kategori Seçin (Opsiyonel) --</option>
+                                        @if (categories != null)
+                                        {
+                                            @foreach (var cat in categories)
+                                            {
+                                                <option value="@cat.Id" selected="@(Model.ServiceCategoryId == cat.Id)">@cat.CategoryName</option>
+                                            }
+                                        }
+                                    </select>
+                                    <small class="form-text text-muted">Servisi bir kategoriye atayabilirsiniz</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Description" class="form-label">Açıklama *</label>
+                            <textarea asp-for="Description" class="form-control" rows="6" required></textarea>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="Image" class="form-label">Servis Resmi</label>
+                                    <input asp-for="Image" type="file" class="form-control" accept="image/*" />
+                                    @if (!string.IsNullOrEmpty(Model.ImageName))
+                                    {
+                                        <small class="form-text text-muted">
+                                            Mevcut: @Model.ImageName
+                                            <img src="~/Services/@Model.ImageName" alt="Mevcut resim" style="max-width: 150px; margin-top: 10px; border-radius: 8px;">
+                                        </small>
+                                    }
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Durum</label>
+                                    <div class="form-check form-switch">
+                                        <input asp-for="IsActive" class="form-check-input" type="checkbox" />
+                                        <label asp-for="IsActive" class="form-check-label">Aktif</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary">
+                            Güncelle
+                        </button>
+                        <a href="/Services/Index" class="btn btn-secondary">
+                            Geri Dön
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

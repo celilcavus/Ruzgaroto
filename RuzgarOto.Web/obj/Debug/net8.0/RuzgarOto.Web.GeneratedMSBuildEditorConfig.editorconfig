@@ -1,0 +1,205 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RuzgarOto.Web
+build_property.RootNamespace = RuzgarOto.Web
+build_property.ProjectDir = C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\RuzgarOto.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\celil\OneDrive\Masaüstü\RuzgarOto.Web-master\RuzgarOto.Web
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/About/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/About/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Account/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxfTG9naW5MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Communication/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Communication/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbXVuaWNhdGlvblxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Contact/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/HomeCarousel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNhcm91c2VsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/MenuSettings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVNldHRpbmdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/MenuSettings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVNldHRpbmdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/MenuSettings/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVNldHRpbmdzXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/PhotoGalery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9HYWxlcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/PhotoGalery/PhotoGalery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9HYWxlcnlcUGhvdG9HYWxlcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/PhotoGalery/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9HYWxlcnlcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/ServiceCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZUNhdGVnb3J5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/ServiceCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZUNhdGVnb3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/ServiceCategory/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZUNhdGVnb3J5XFNlcnZpY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/ServiceCategory/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZUNhdGVnb3J5XFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Services/Get.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcR2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Services/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Services/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Shared/Components/AboutList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWJvdXRMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Shared/Components/About/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWJvdXRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Shared/Components/Clients/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2xpZW50c1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Shared/Components/Communication/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ29tbXVuaWNhdGlvblxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Shared/Components/ContactList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ29udGFjdExpc3RcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Shared/Components/Contact/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ29udGFjdFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Shared/Components/HomeCarousel/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSG9tZUNhcm91c2VsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Shared/Components/PhotoGalery/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUGhvdG9HYWxlcnlcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Shared/Components/ServiceCategory/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VydmljZUNhdGVnb3J5XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Shared/Components/ServicesHome/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VydmljZXNIb21lXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Shared/Components/Services/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VydmljZXNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/SiteSettings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVNldHRpbmdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/celil/OneDrive/Masaüstü/RuzgarOto.Web-master/RuzgarOto.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-k3je74tj3t

@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "_Layout";
+}
+@model IEnumerable<PhotoGalery>
+<br />
+<br />
+<br />
+<br />
+<!--portfolio start -->
+<section id="portfolio" class="portfolio">
+    <div class="portfolio-details">
+        <div class="section-heading text-center">
+            <h2>Fotoğraf Galerimiz</h2>
+        </div>
+        <div class="container">
+            <div class="portfolio-content">
+                <div class="isotope">
+                    <div class="row">
+
+                        @foreach (var item in Model)
+                        {
+
+                            <div class="col-sm-3">
+                                <div class="item" style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;">
+                                    <img src="~/PhotoGalery/@item.ImageName" alt="portfolio image" style="object-fit:cover;" />
+                                </div><!-- /.item -->
+                            </div>
+
+                            <!-- /.col -->
+                        }
+
+
+                    </div><!-- /.row -->
+                </div><!--/.isotope-->
+            </div><!--/.gallery-content-->
+        </div><!--/.container-->
+    </div><!--/.portfolio-details-->
+
+</section><!--/.portfolio-->
+<!--portfolio end -->

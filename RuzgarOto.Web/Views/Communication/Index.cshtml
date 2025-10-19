@@ -1,0 +1,78 @@
+﻿@model IEnumerable<_01.RuzgarOto.Entity.Communication>
+
+@{
+    ViewData["Title"] = "İletişim Bilgileri Yönetimi";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        İletişim Bilgileri Yönetimi
+                    </h3>
+                </div>
+                <div class="card-body">
+                    @if (Model != null && Model.Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Ana Başlık</th>
+                                        <th>Telefon 1</th>
+                                        <th>Telefon 2</th>
+                                        <th>Email 1</th>
+                                        <th>Email 2</th>
+                                        <th>Durum</th>
+                                        <th>İşlemler</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@item.HeroTitle</td>
+                                            <td>@item.Phone</td>
+                                            <td>@item.Phone2</td>
+                                            <td>@item.Email</td>
+                                            <td>@item.Email2</td>
+                                            <td>
+                                                @if (item.IsActive)
+                                                {
+                                                    <span class="badge bg-success">Aktif</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge bg-danger">Pasif</span>
+                                                }
+                                            </td>
+                                            <td>
+                                                <a href="/Communication/Update/@item.Id" class="btn btn-sm btn-primary">
+                                                    Düzenle
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-info">
+                            Henüz iletişim bilgisi bulunmuyor. Sayfa yenilendiğinde otomatik oluşturulacak.
+                        </div>
+                    }
+                </div>
+                <div class="card-footer">
+                    <a href="/Admin/Index" class="btn btn-secondary">
+                        Geri Dön
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

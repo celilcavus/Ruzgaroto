@@ -1,0 +1,102 @@
+@model IEnumerable<_01.RuzgarOto.Entity.ServiceCategory>
+
+<br /><br /><br />
+
+<section class="service-categories" style="padding: 80px 0; background: #f8f9fa;">
+    <div class="container">
+        <div class="section-heading text-center mb-5">
+            <h2 style="font-size: 42px; font-weight: 700; margin-bottom: 20px;">Hizmet Kategorilerimiz</h2>
+            <p style="font-size: 18px; color: #6c757d;">Araçlarınız için sunduğumuz profesyonel hizmetler</p>
+        </div>
+
+        @if (Model != null && Model.Any())
+        {
+            <div class="row">
+                @foreach (var category in Model)
+                {
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <a href="/ServiceCategory/Services/@category.Id" style="text-decoration: none; color: inherit;">
+                            <div class="category-card" 
+                                 style="background: #fff; 
+                                        border-radius: 20px; 
+                                        padding: 40px; 
+                                        text-align: center; 
+                                        box-shadow: 0 5px 20px rgba(0,0,0,0.08); 
+                                        transition: all 0.3s ease;
+                                        cursor: pointer;
+                                        height: 100%;">
+                                @if (!string.IsNullOrEmpty(category.ImageName))
+                                {
+                                    <div class="category-image mb-4">
+                                        <img src="~/ServiceCategory/@category.ImageName" 
+                                             alt="@category.CategoryName" 
+                                             style="width: 120px; 
+                                                    height: 120px; 
+                                                    object-fit: cover; 
+                                                    border-radius: 15px; 
+                                                    box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="category-placeholder mb-4">
+                                        <div style="width: 120px; 
+                                                    height: 120px; 
+                                                    margin: 0 auto;
+                                                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                                                    border-radius: 15px;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
+                                            <span style="font-size: 36px; font-weight: 700; color: #fff;">
+                                                @category.CategoryName.Substring(0, 1)
+                                            </span>
+                                        </div>
+                                    </div>
+                                }
+                                
+                                <h3 style="font-size: 24px; font-weight: 600; margin-bottom: 15px; color: #2c3e50;">
+                                    @category.CategoryName
+                                </h3>
+                                
+                                @if (!string.IsNullOrEmpty(category.ShortDescription))
+                                {
+                                    <p style="color: #7f8c8d; font-size: 15px; margin-bottom: 20px; min-height: 60px;">
+                                        @category.ShortDescription
+                                    </p>
+                                }
+                                
+                                <div class="btn btn-@category.ColorClass" 
+                                     style="border-radius: 25px; 
+                                            padding: 12px 30px;
+                                            font-weight: 500;
+                                            transition: all 0.3s ease;">
+                                    Detayları Gör
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <!-- Kategoriler yüklenene kadar veya yoksa eski hizmetleri göster -->
+            <div class="text-center">
+                <p style="color: #6c757d;">Hizmet kategorileri yükleniyor...</p>
+            </div>
+        }
+    </div>
+</section>
+
+<style>
+    .category-card:hover {
+        transform: translateY(-15px);
+        box-shadow: 0 15px 40px rgba(0,0,0,0.15) !important;
+    }
+    
+    .category-card:hover .btn {
+        transform: scale(1.05);
+    }
+</style>

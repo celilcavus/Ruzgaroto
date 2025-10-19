@@ -1,0 +1,921 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RuzgarOto.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RuzgarOto.Web.ol9i33yer5.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\About\\01HZ0GDH9N5R3YDDR89WY6CRNA.jpg",
+      "PackagePath": "staticwebassets\\About\\01HZ0GDH9N5R3YDDR89WY6CRNA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZ4X6PW2T05S4GA6J24RAQ.jpg",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZ4X6PW2T05S4GA6J24RAQ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZ6Q1H4G5AH53WBDDP0QZ3.jpg",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZ6Q1H4G5AH53WBDDP0QZ3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZ6T3S3MDNEFJB620RTFPK.jpg",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZ6T3S3MDNEFJB620RTFPK.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZ6XYFZDFTMF1CTSK0JG62.jpg",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZ6XYFZDFTMF1CTSK0JG62.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZ711KKSR83JHXPVNWS1FR.jpg",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZ711KKSR83JHXPVNWS1FR.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZ7APV3X0BH3VSSW9W6ZN0.jpg",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZ7APV3X0BH3VSSW9W6ZN0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZ9DST8NQ6699J9MJH996C.jpg",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZ9DST8NQ6699J9MJH996C.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZ9J2PMBFTAERMNSN1CMC9.jpg",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZ9J2PMBFTAERMNSN1CMC9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZ9MPP5EM7A1ZC7M4KRCHM.jpg",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZ9MPP5EM7A1ZC7M4KRCHM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZ9T4RQDJYEK2B00HC80AS.jpg",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZ9T4RQDJYEK2B00HC80AS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZA2NPZ34P5E3YG8S4W4GY.jpg",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZA2NPZ34P5E3YG8S4W4GY.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZA4SMT7PX74W69ZERXKY4.jpg",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZA4SMT7PX74W69ZERXKY4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZCN01EJ8P3QZ4T88Q3BX4.jpg",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZCN01EJ8P3QZ4T88Q3BX4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZFBHT75B1SEACVDRFTP08.jpg",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZFBHT75B1SEACVDRFTP08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZFJCVVP4AWM95Z9RKXYBG.PNG",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZFJCVVP4AWM95Z9RKXYBG.PNG"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZGBMNDQ01DYKGZRGWYS1W.jpg",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZGBMNDQ01DYKGZRGWYS1W.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZGE71T7R1VRMT60RCJ890.JPG",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZGE71T7R1VRMT60RCJ890.JPG"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\PhotoGalery\\01HYXZGGE06D7NH0M4JWJVNMNK.JPG",
+      "PackagePath": "staticwebassets\\PhotoGalery\\01HYXZGGE06D7NH0M4JWJVNMNK.JPG"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYH1J6JKNXDPJGGBB2ATF0AE.png",
+      "PackagePath": "staticwebassets\\Services\\01HYH1J6JKNXDPJGGBB2ATF0AE.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYQ91ZTQC95SYA7ZTSXWP1PB.jpeg",
+      "PackagePath": "staticwebassets\\Services\\01HYQ91ZTQC95SYA7ZTSXWP1PB.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYTX98WKZB7275SEGBKKVCBF.png",
+      "PackagePath": "staticwebassets\\Services\\01HYTX98WKZB7275SEGBKKVCBF.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYTX9E0RQEH49H24MZY541CQ.jpeg",
+      "PackagePath": "staticwebassets\\Services\\01HYTX9E0RQEH49H24MZY541CQ.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYTX9MX7SYAQDNF4VWTK5R0C.jpeg",
+      "PackagePath": "staticwebassets\\Services\\01HYTX9MX7SYAQDNF4VWTK5R0C.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYTXA98RFAWBHRR5FBGTXWZV.jpeg",
+      "PackagePath": "staticwebassets\\Services\\01HYTXA98RFAWBHRR5FBGTXWZV.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYTXAD7Z37WT7HMXRVKFXGTN.png",
+      "PackagePath": "staticwebassets\\Services\\01HYTXAD7Z37WT7HMXRVKFXGTN.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYTXAGYC6XTW18CY131WQE66.png",
+      "PackagePath": "staticwebassets\\Services\\01HYTXAGYC6XTW18CY131WQE66.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYTXB6S186MWAVYAQFBWARGZ.jpg",
+      "PackagePath": "staticwebassets\\Services\\01HYTXB6S186MWAVYAQFBWARGZ.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYV1WPFVS1RR4RPK2HVAH0F1.png",
+      "PackagePath": "staticwebassets\\Services\\01HYV1WPFVS1RR4RPK2HVAH0F1.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYXY02EWFM4EDHVSVK16909Y.jpg",
+      "PackagePath": "staticwebassets\\Services\\01HYXY02EWFM4EDHVSVK16909Y.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYXY84BZ7ZGC1NXBMD42N253.jpg",
+      "PackagePath": "staticwebassets\\Services\\01HYXY84BZ7ZGC1NXBMD42N253.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYXYGH93RYQA3XCP5RYRF6E8.jpg",
+      "PackagePath": "staticwebassets\\Services\\01HYXYGH93RYQA3XCP5RYRF6E8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYXYPW1NA51J9GHJ05DHJXK7.jpg",
+      "PackagePath": "staticwebassets\\Services\\01HYXYPW1NA51J9GHJ05DHJXK7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYXYS9TNZNQKA5A1W1DFCSFH.jpg",
+      "PackagePath": "staticwebassets\\Services\\01HYXYS9TNZNQKA5A1W1DFCSFH.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01HYXYV2T0E98CDQ2TSS5B21AB.jpg",
+      "PackagePath": "staticwebassets\\Services\\01HYXYV2T0E98CDQ2TSS5B21AB.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Services\\01K7X941RMNJDRMPDQZD80AR89.jpg",
+      "PackagePath": "staticwebassets\\Services\\01K7X941RMNJDRMPDQZD80AR89.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\Slider.css",
+      "PackagePath": "staticwebassets\\Slider.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\css\\bootsnav.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootsnav.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\about\\old.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\old.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\about\\profile_image.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\profile_image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\about\\welcome-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about\\welcome-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\clients\\c1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\c1.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\clients\\c2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\c2.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\clients\\c3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\c3.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\clients\\c4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\c4.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\clients\\c5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\c5.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\clients\\c6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\c6.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\clients\\c7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\clients\\c7.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\home\\Başlıksız(2).jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\Başlıksız(2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\portfolio\\p1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\portfolio\\p2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\p2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\portfolio\\p3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\p3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\portfolio\\p4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\p4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\images\\portfolio\\p5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio\\p5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\js\\bootsnav.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootsnav.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\js\\jquery.appear.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.appear.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\js\\progressbar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\progressbar.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\logo\\Başlıksız-Photoroom.png-Photoroom.png",
+      "PackagePath": "staticwebassets\\assets\\logo\\Başlıksız-Photoroom.png-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\logo\\WhatsApp Image 2024-05-26 at 18.54.37-Photoroom.png-Photoroom.png",
+      "PackagePath": "staticwebassets\\assets\\logo\\WhatsApp Image 2024-05-26 at 18.54.37-Photoroom.png-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\assets\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\logo\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\navbarScript.js",
+      "PackagePath": "staticwebassets\\navbarScript.js"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\.package-lock.json",
+      "PackagePath": "staticwebassets\\node_modules\\.package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\@popperjs\\core\\package.json",
+      "PackagePath": "staticwebassets\\node_modules\\@popperjs\\core\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\node_modules\\bootstrap\\package.json",
+      "PackagePath": "staticwebassets\\node_modules\\bootstrap\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\package-lock.json",
+      "PackagePath": "staticwebassets\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\package.json",
+      "PackagePath": "staticwebassets\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\Ray_Sigorta_logo.svg.png",
+      "PackagePath": "staticwebassets\\sigortalar\\Ray_Sigorta_logo.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\Türkiye_Sigorta_logo.svg.png",
+      "PackagePath": "staticwebassets\\sigortalar\\Türkiye_Sigorta_logo.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\acntürk.png",
+      "PackagePath": "staticwebassets\\sigortalar\\acntürk.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\ak_sigorta.png",
+      "PackagePath": "staticwebassets\\sigortalar\\ak_sigorta.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\allianz_sigorta.png",
+      "PackagePath": "staticwebassets\\sigortalar\\allianz_sigorta.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\anadolu_sigorta.png",
+      "PackagePath": "staticwebassets\\sigortalar\\anadolu_sigorta.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\ankara-sigorta.jpg",
+      "PackagePath": "staticwebassets\\sigortalar\\ankara-sigorta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\axa_sigorta.png",
+      "PackagePath": "staticwebassets\\sigortalar\\axa_sigorta.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\bereket-sigorta-logo-16FFF8EDDE-seeklogo.com.png",
+      "PackagePath": "staticwebassets\\sigortalar\\bereket-sigorta-logo-16FFF8EDDE-seeklogo.com.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\doga_sigorta.jpg",
+      "PackagePath": "staticwebassets\\sigortalar\\doga_sigorta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\ethica_sigorta.jpg",
+      "PackagePath": "staticwebassets\\sigortalar\\ethica_sigorta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\eureko_sigorta.png",
+      "PackagePath": "staticwebassets\\sigortalar\\eureko_sigorta.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\generali_sigorta.png",
+      "PackagePath": "staticwebassets\\sigortalar\\generali_sigorta.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\gulf-sigorta-logo-A8C27E65BF-seeklogo.com.png",
+      "PackagePath": "staticwebassets\\sigortalar\\gulf-sigorta-logo-A8C27E65BF-seeklogo.com.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\hep_20230529100902.png",
+      "PackagePath": "staticwebassets\\sigortalar\\hep_20230529100902.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\indir.png",
+      "PackagePath": "staticwebassets\\sigortalar\\indir.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\koru_sigorta.png",
+      "PackagePath": "staticwebassets\\sigortalar\\koru_sigorta.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\mapfre_sigorta.png",
+      "PackagePath": "staticwebassets\\sigortalar\\mapfre_sigorta.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\neova_sigorta.png",
+      "PackagePath": "staticwebassets\\sigortalar\\neova_sigorta.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\nippon_sigorta.png",
+      "PackagePath": "staticwebassets\\sigortalar\\nippon_sigorta.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\orient_sigorta.png",
+      "PackagePath": "staticwebassets\\sigortalar\\orient_sigorta.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\png-clipart-logo-oficina-seguros-mapfre-graphics-insurance-company-logo-text-trademark.png",
+      "PackagePath": "staticwebassets\\sigortalar\\png-clipart-logo-oficina-seguros-mapfre-graphics-insurance-company-logo-text-trademark.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\quick.png",
+      "PackagePath": "staticwebassets\\sigortalar\\quick.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\sompo_japan_sigorta.jpg",
+      "PackagePath": "staticwebassets\\sigortalar\\sompo_japan_sigorta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\türkiye katılım.png",
+      "PackagePath": "staticwebassets\\sigortalar\\türkiye katılım.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\unico_sigorta.jpg",
+      "PackagePath": "staticwebassets\\sigortalar\\unico_sigorta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\zurich.png",
+      "PackagePath": "staticwebassets\\sigortalar\\zurich.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\sigortalar\\zurich_sigorta.png",
+      "PackagePath": "staticwebassets\\sigortalar\\zurich_sigorta.png"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\DİFRANSİYEL.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\DİFRANSİYEL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\DİNGİL.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\DİNGİL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\FAR.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\FAR.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\MARŞ DİNOMOSU.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\MARŞ DİNOMOSU.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\PLASTİK AKSAM.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\PLASTİK AKSAM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\aks.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\aks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\boya.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\boya.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\cnc.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\cnc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\far temizleme.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\far temizleme.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\jant boyama.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\jant boyama.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\kaporta.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\kaporta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\kaportaa.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\kaportaa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\klima rad.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\klima rad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\mekanik bakım.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\mekanik bakım.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\pasta cila.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\pasta cila.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\turbo rad.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\turbo rad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\ÖN DÜZEN AYARI.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\ÖN DÜZEN AYARI.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\ŞARJ DİNOMOSU.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\ŞARJ DİNOMOSU.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\şase.jpg",
+      "PackagePath": "staticwebassets\\tia yeni\\şase.jpg"
+    },
+    {
+      "Id": "C:\\Users\\celil\\OneDrive\\Masaüstü\\RuzgarOto.Web-master\\RuzgarOto.Web\\wwwroot\\tia yeni\\şase.png",
+      "PackagePath": "staticwebassets\\tia yeni\\şase.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RuzgarOto.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RuzgarOto.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RuzgarOto.Web.props",
+      "PackagePath": "build\\RuzgarOto.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RuzgarOto.Web.props",
+      "PackagePath": "buildMultiTargeting\\RuzgarOto.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RuzgarOto.Web.props",
+      "PackagePath": "buildTransitive\\RuzgarOto.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

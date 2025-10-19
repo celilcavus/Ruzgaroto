@@ -1,0 +1,49 @@
+﻿@{
+    var communication = ViewBag.Communication as _01.RuzgarOto.Entity.Communication;
+}
+
+<!--welcome-hero start -->
+
+<section id="welcome-hero" class="welcome-hero" style="background-image: url('/assets/images/home/Başlıksız(2).jpg');z-index:-1;">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="header-text">
+                    <h2>@(communication?.HeroTitle ?? "TİA ŞASECİ AHMET OTOMOTİV")</h2>
+                    <h2>@(communication?.HeroSubtitle ?? "TOPKAPI BAYİ")</h2>
+                    <div style="display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+	margin:5px;
+">
+                        @if (!string.IsNullOrEmpty(communication?.Phone))
+                        {
+                            <p>
+                                <a href="tel:@communication.Phone.Replace(" ", "").Replace("(", "").Replace(")", "")" 
+                                   style="font-size: 40px; background: transparent; border: 0">
+                                    @communication.Phone
+                                </a>
+                            </p>
+                        }
+                        @if (!string.IsNullOrEmpty(communication?.Phone2))
+                        {
+                            <p>
+                                <a href="tel:@communication.Phone2.Replace(" ", "").Replace("+", "")" 
+                                   style="font-size: 40px; background: transparent; border: 0">
+                                    @communication.Phone2
+                                </a>
+                            </p>
+                        }
+                    </div>
+                    <p>@(communication?.HeroDescription1 ?? "TİA Otomotiv firması olarak tüm marka ve modeldeki araçlarınızın;")</p>
+                    <p>@(communication?.HeroDescription2 ?? "bakım, onarım ve yedek parça hizmetini sunuyoruz.")</p>
+
+                </div><!--/.header-text-->
+            </div><!--/.col-->
+        </div><!-- /.row-->
+    </div><!-- /.container-->
+
+</section><!--/.welcome-hero-->
+<!--welcome-hero end -->

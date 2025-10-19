@@ -1,0 +1,113 @@
+@model _01.RuzgarOto.Entity.ServiceCategory
+
+@{
+    ViewData["Title"] = "Yeni Kategori Ekle";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        Yeni Servis Kategorisi Ekle
+                    </h3>
+                </div>
+                <form asp-action="Create" method="post" enctype="multipart/form-data">
+                    <div class="card-body">
+                        @if (TempData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                @TempData["ErrorMessage"]
+                                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                            </div>
+                        }
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="CategoryName" class="form-label">Kategori Adı *</label>
+                                    <input asp-for="CategoryName" class="form-control" placeholder="örn: Boya İşlemleri" required />
+                                    <span asp-validation-for="CategoryName" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3">
+                                    <label asp-for="DisplayOrder" class="form-label">Sıralama *</label>
+                                    <input asp-for="DisplayOrder" type="number" class="form-control" value="1" required />
+                                    <small class="form-text text-muted">Küçük numara önce gösterilir</small>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3">
+                                    <label class="form-label">Durum</label>
+                                    <div class="form-check form-switch">
+                                        <input asp-for="IsActive" class="form-check-input" type="checkbox" checked />
+                                        <label asp-for="IsActive" class="form-check-label">Aktif</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="ShortDescription" class="form-label">Kısa Açıklama</label>
+                            <input asp-for="ShortDescription" class="form-control" placeholder="Kategorinin kısa açıklaması" />
+                            <small class="form-text text-muted">Ana sayfada gösterilecek kısa açıklama</small>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Description" class="form-label">Detaylı Açıklama</label>
+                            <textarea asp-for="Description" class="form-control" rows="4" placeholder="Kategori hakkında detaylı bilgi"></textarea>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    <label asp-for="IconClass" class="form-label">Icon Sınıfı (Font Awesome)</label>
+                                    <input asp-for="IconClass" class="form-control" value="fas fa-wrench" placeholder="fas fa-wrench" />
+                                    <small class="form-text text-muted">
+                                        <a href="https://fontawesome.com/icons" target="_blank">Font Awesome Icons</a>
+                                    </small>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    <label asp-for="ColorClass" class="form-label">Renk</label>
+                                    <select asp-for="ColorClass" class="form-control">
+                                        <option value="primary">Mavi (Primary)</option>
+                                        <option value="success">Yeşil (Success)</option>
+                                        <option value="danger">Kırmızı (Danger)</option>
+                                        <option value="warning">Sarı (Warning)</option>
+                                        <option value="info">Açık Mavi (Info)</option>
+                                        <option value="dark">Siyah (Dark)</option>
+                                        <option value="secondary">Gri (Secondary)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    <label asp-for="ImageFile" class="form-label">Kategori Resmi</label>
+                                    <input asp-for="ImageFile" type="file" class="form-control" accept="image/*" />
+                                    <small class="form-text text-muted">Opsiyonel - İsterseniz resim yükleyebilirsiniz</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-success">
+                            Kaydet
+                        </button>
+                        <a href="/ServiceCategory/Index" class="btn btn-secondary">
+                            İptal
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

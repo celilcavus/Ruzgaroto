@@ -1,0 +1,90 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Home Page";
+}
+@await Component.InvokeAsync("HomeCarousel")
+<br />
+<br />
+<br />
+<section>  
+    <div class="slider" id="slider1">
+        <div class="slides">
+            <img src="~/tia yeni/aks.jpg" class="slide" />
+            <img src="~/tia yeni/boya.jpg" class="slide" />
+            <img src="~/tia yeni/marş dİnomosu.jpg" class="slide" />
+            <img src="~/tia yeni/cnc.jpg" class="slide" />
+            <img src="~/tia yeni/kaporta.jpg" class="slide" />
+            <img src="~/tia yeni/klima rad.jpg" class="slide" />
+            <img src="~/tia yeni/jant boyama.jpg" class="slide" />
+            <img src="~/tia yeni/far.jpg" class="slide" />
+            <img src="~/tia yeni/far temizleme.jpg" class="slide" />
+            <img src="~/tia yeni/dİngİl.jpg" class="slide" />
+            <img src="~/tia yeni/dİfransİyel.jpg" class="slide" />
+            <img src="~/tia yeni/mekanik bakım.jpg" class="slide" />
+            <img src="~/tia yeni/pasta cila.jpg" class="slide" />
+            <img src="~/tia yeni/ön düzen ayari.jpg" class="slide" />
+            <img src="~/tia yeni/plastİk aksam.jpg" class="slide" />
+            <img src="~/tia yeni/şarj dİnomosu.jpg" class="slide" />
+            <img src="~/tia yeni/şase.png" class="slide" />
+            <img src="~/tia yeni/turbo rad.jpg" class="slide" />
+        </div>
+        <button class="prev" onclick="changeSlide('slider1', -1)">&#10094;</button>
+        <button class="next" onclick="changeSlide('slider1', 1)">&#10095;</button>
+
+    </div>
+</section>
+
+@await Component.InvokeAsync("About")
+
+@await Component.InvokeAsync("ServiceCategory")
+
+@await Component.InvokeAsync("ServicesHome")
+
+<section>
+    <div class="section-heading text-center">
+        <h2 style="padding: 50px 0 50px;">Çalıştığımız Sİgorta Şİrketlerİ</h2>
+    </div>
+    <div class="slider" id="slider2">
+        <div class="slides">
+            <img src="~/sigortalar/acntürk.png" class="slide" />
+            <img src="~/sigortalar/ak_sigorta.png" class="slide" />
+            <img src="~/sigortalar/allianz_sigorta.png" class="slide" />
+            <img src="~/sigortalar/anadolu_sigorta.png" class="slide" />
+            <img src="~/sigortalar/ankara-sigorta.jpg" class="slide" />
+            <img src="~/sigortalar/axa_sigorta.png" class="slide" />
+            <img src="~/sigortalar/bereket-sigorta-logo-16fff8edde-seeklogo.com.png" class="slide" />
+            <img src="~/sigortalar/doga_sigorta.jpg" class="slide" />
+            <img src="~/sigortalar/ethica_sigorta.jpg" class="slide" />
+            <img src="~/sigortalar/eureko_sigorta.png" class="slide" />
+            <img src="~/sigortalar/generali_sigorta.png" class="slide" />
+            <img src="~/sigortalar/gulf-sigorta-logo-a8c27e65bf-seeklogo.com.png" class="slide" />
+            <img src="~/sigortalar/hep_20230529100902.png" class="slide" />
+            <img src="~/sigortalar/indir.png" class="slide" />
+            <img src="~/sigortalar/koru_sigorta.png" class="slide" />
+            <img src="~/sigortalar/mapfre_sigorta.png" class="slide" />
+            <img src="~/sigortalar/neova_sigorta.png" class="slide" />
+            <img src="~/sigortalar/nippon_sigorta.png" class="slide" />
+            <img src="~/sigortalar/orient_sigorta.png" class="slide" />
+            <img src="~/sigortalar/png-clipart-logo-oficina-seguros-mapfre-graphics-insurance-company-logo-text-trademark.png" class="slide" />
+            <img src="~/sigortalar/quick.png" class="slide" />
+            <img src="~/sigortalar/ray_sigorta_logo.svg.png" class="slide" />
+            <img src="~/sigortalar/sompo_japan_sigorta.jpg" class="slide" />
+            <img src="~/sigortalar/türkiye katılım.png" class="slide" />
+            <img src="~/sigortalar/türkiye_sigorta_logo.svg.png" class="slide" />
+            <img src="~/sigortalar/zurich_sigorta.png" class="slide" />
+            <img src="~/sigortalar/unico_sigorta.jpg" class="slide" />
+            <img src="~/sigortalar/zurich.png" class="slide" />
+        </div>
+        <button class="prev" onclick="changeSlide('slider2', -1)">&#10094;</button>
+        <button class="next" onclick="changeSlide('slider2', 1)">&#10095;</button>
+
+    </div>
+   
+</section>
+
+
+
+
+@await Component.InvokeAsync("Contact")
+
+

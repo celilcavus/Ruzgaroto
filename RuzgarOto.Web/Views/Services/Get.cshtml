@@ -1,0 +1,71 @@
+﻿@model Services
+@{
+    Layout = "_Layout";
+}
+<style>
+
+/* Blog yazısı stili */
+.blog-post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.blog-post h2 {
+    margin-top: 0;
+}
+
+.meta {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.blog-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.blog-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.blog-content {
+    line-height: 1.6;
+}
+
+</style>
+<br />
+<br />
+<div class="container">
+    @if (Model is not null)
+    {
+        <main>
+            <article class="blog-post">
+                <div class="blog-image">
+                    <img src="/Services/@Model.ImageName" class="img-fluid">
+                </div>
+                <div class="d-flex w-100">
+                    <h2>@Model.Title</h2>
+                    <hr />
+                </div>
+                <div class="blog-content">
+                    <p>
+                        @Model.Description
+                    </p>
+                </div>
+            </article>
+        </main>
+    }
+    else
+    {
+        <p>404 not found</p>
+    }
+</div>
+<hr />
+<br />
+<br />
+<br />

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Contact>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>MAİL</td>
+            <td>TELEFON</td>
+            <td>KONU</td>
+            <td>MESAJ</td>
+            <td>AKTİF</td>
+            <td>TARİH</td>
+            <td>SİL</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Email</td>
+                <td>@item.Phone</td>
+                <td>@item.Subject</td>
+                <td>@item.Message</td>
+                <td>@item.CreatedDate</td>
+                @if (item.IsActive)
+                {
+                    <td>Aktif</td>
+                }
+                else
+                {
+                    <td>Aktif Değil</td>
+                }
+                <td><a asp-action="Delete" asp-controller="Contact" asp-route-Id="@item.Id" class="btn btn-danger">Sil</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

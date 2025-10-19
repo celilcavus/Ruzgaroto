@@ -1,0 +1,84 @@
+@model _01.RuzgarOto.Entity.ServiceCategory
+
+@{
+    ViewData["Title"] = Model.CategoryName;
+    Layout = "_Layout";
+}
+
+<br /><br /><br /><br />
+
+<section class="services-section" style="padding: 80px 0; background: #f8f9fa;">
+    <div class="container">
+        <!-- Kategori Header -->
+        <div class="category-header text-center mb-5">
+            @if (!string.IsNullOrEmpty(Model.ImageName))
+            {
+                <img src="~/ServiceCategory/@Model.ImageName" alt="@Model.CategoryName" 
+                     style="max-width: 250px; max-height: 250px; border-radius: 15px; margin-bottom: 30px; box-shadow: 0 5px 20px rgba(0,0,0,0.15);">
+            }
+            <h1 style="font-size: 48px; font-weight: 700; margin-bottom: 20px; color: #2c3e50;">@Model.CategoryName</h1>
+            @if (!string.IsNullOrEmpty(Model.Description))
+            {
+                <p style="font-size: 18px; color: #6c757d; max-width: 800px; margin: 0 auto; line-height: 1.8;">@Model.Description</p>
+            }
+        </div>
+
+        <!-- Servisler Grid -->
+        @if (Model.Services != null && Model.Services.Any())
+        {
+            <div class="row">
+                @foreach (var service in Model.Services.Where(s => s.IsActive))
+                {
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="service-card" style="background: #fff; border-radius: 15px; overflow: hidden; box-shadow: 0 3px 15px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+                            @if (!string.IsNullOrEmpty(service.ImageName))
+                            {
+                                <div class="service-image" style="height: 200px; overflow: hidden;">
+                                    <img src="~/Services/@service.ImageName" alt="@service.Title" 
+                                         style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                                </div>
+                            }
+                            <div class="service-content" style="padding: 25px;">
+                                <h3 style="font-size: 22px; font-weight: 600; margin-bottom: 15px; color: #2c3e50;">
+                                    @service.Title
+                                </h3>
+                                <p style="color: #7f8c8d; font-size: 14px; margin-bottom: 20px;">
+                                    @(service.Description.Length > 120 ? service.Description.Substring(0, 120) + "..." : service.Description)
+                                </p>
+                                <a href="/Services/Get/@service.Id" class="btn btn-@Model.ColorClass" 
+                                   style="border-radius: 25px; padding: 10px 25px;">
+                                    Detayları Gör
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-info text-center" style="border-radius: 15px; padding: 40px;">
+                <h4>Bu kategoride henüz servis bulunmuyor.</h4>
+                <p>Yakında bu kategoriye servisler eklenecektir.</p>
+            </div>
+        }
+
+        <!-- Geri Dön Butonu -->
+        <div class="text-center mt-5">
+            <a href="/" class="btn btn-lg btn-secondary" style="border-radius: 25px; padding: 12px 40px;">
+                Ana Sayfaya Dön
+            </a>
+        </div>
+    </div>
+</section>
+
+<style>
+    .service-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
+    }
+    
+    .service-card:hover .service-image img {
+        transform: scale(1.1);
+    }
+</style>

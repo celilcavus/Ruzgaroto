@@ -1,0 +1,191 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+    ViewData["Title"] = "Admin Panel";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        Admin Panel
+                    </h3>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <!-- Mevcut Yönetim Kartları -->
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card bg-primary text-white">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h4 class="card-title">Hakkımızda</h4>
+                                            <p class="card-text">Hakkımızda sayfası içeriklerini yönetin</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="/About/Index" class="btn btn-light btn-sm">
+                                        Yönet
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card bg-success text-white">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h4 class="card-title">Hizmetler</h4>
+                                            <p class="card-text">Hizmetler içeriklerini yönetin</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="/Services/Index" class="btn btn-light btn-sm">
+Yönet
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card text-white" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h4 class="card-title">Hizmet Kategorileri</h4>
+                                            <p class="card-text">Servis kategorilerini yönetin</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="/ServiceCategory/Index" class="btn btn-light btn-sm">
+Yönet
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card bg-info text-white">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h4 class="card-title">İletişim</h4>
+                                            <p class="card-text">İletişim bilgilerini yönetin</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="/Contact/Index" class="btn btn-light btn-sm">
+Yönet
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card bg-warning text-white">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h4 class="card-title">Fotoğraf Galerisi</h4>
+                                            <p class="card-text">Fotoğraf galerisi içeriklerini yönetin</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="/PhotoGalery/Index" class="btn btn-light btn-sm">
+Yönet
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Yeni Dinamik Yönetim Kartları -->
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card bg-dark text-white">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h4 class="card-title">Site Ayarları</h4>
+                                            <p class="card-text">Site genel ayarlarını yönetin</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="/SiteSettings/Index" class="btn btn-light btn-sm">
+Yönet
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card bg-secondary text-white">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h4 class="card-title">Ana Sayfa Slider</h4>
+                                            <p class="card-text">Ana sayfa slider resimlerini yönetin</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="/ServiceSlider/Index" class="btn btn-light btn-sm">
+Yönet
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card bg-danger text-white">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h4 class="card-title">Sigorta Şirketleri</h4>
+                                            <p class="card-text">Sigorta şirketi logolarını yönetin</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="/InsuranceCompany/Index" class="btn btn-light btn-sm">
+Yönet
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="card bg-purple text-white">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h4 class="card-title">Menü Ayarları</h4>
+                                            <p class="card-text">Site menü yapısını yönetin</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="/MenuSettings/Index" class="btn btn-light btn-sm">
+Yönet
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .bg-purple {
+        background-color: #6f42c1 !important;
+    }
+</style>

@@ -1,0 +1,11 @@
+﻿@model PhotoGalery
+
+<form asp-action="Update" asp-controller="PhotoGalery" enctype="multipart/form-data">
+    <label asp-for="Image">Resim</label>
+    <input asp-for="Image" class="form-control" />
+    <br />
+    <label asp-for="IsActive">Aktif Olsun mu?</label>
+    <input asp-for="IsActive" class="check-form" />
+    <br />
+    <button class="btn btn-dark">Güncelle</button>
+</form>

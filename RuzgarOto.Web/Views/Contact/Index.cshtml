@@ -1,0 +1,23 @@
+﻿@model Contact
+
+<form asp-action="Index" asp-controller="Communication">
+    <label asp-for="FullName">Ad Soyad</label>
+    <input asp-for="FullName" class="form-control" />
+    <br />
+    <label asp-for="Email">Mail</label>
+    <input asp-for="Email" class="form-control" type="email" />
+    <br />
+    <label asp-for="Message">Mesaj</label>
+    <input asp-for="Message" class="form-control" type="text" />
+    <br />
+    <label asp-for="Phone">Telefon</label>
+    <input asp-for="Phone" class="form-control" type="tel" />
+    <br />
+    <label asp-for="IsActive">Aktif olsun mu?</label>
+    <input asp-for="IsActive" class="form-check" />
+    <br />
+    <button class="btn btn-dark" type="submit">Kaydet</button>
+</form>
+<br />
+<br />
+@await Component.InvokeAsync("ContactList")
